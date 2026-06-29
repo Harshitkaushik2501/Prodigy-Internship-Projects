@@ -1,6 +1,8 @@
+Here's a single **README.md** for all three of your internship tasks.
+
 # Python Internship Projects
 
-This repository contains Python projects completed as part of my internship.
+This repository contains Python projects completed as part of my internship to demonstrate basic programming and cybersecurity concepts.
 
 ## Projects
 
@@ -8,7 +10,7 @@ This repository contains Python projects completed as part of my internship.
 
 #### Description
 
-A simple Python program that encrypts and decrypts messages using the Caesar Cipher algorithm. The program allows users to enter a message and a shift value through a command-line interface.
+A Python program that encrypts and decrypts messages using the Caesar Cipher algorithm. The user enters a message and a shift value through a command-line interface.
 
 #### Features
 
@@ -16,7 +18,6 @@ A simple Python program that encrypts and decrypts messages using the Caesar Cip
 * Decrypt messages
 * Supports uppercase and lowercase letters
 * Preserves spaces, numbers, and special characters
-* Handles invalid shift value input
 
 #### Run
 
@@ -30,7 +31,7 @@ python caesar_cipher.py
 
 #### Description
 
-A Python program that checks the strength of a password based on common security rules. It evaluates the password and provides suggestions to improve password security.
+A Python program that evaluates the strength of a password based on common security rules and provides suggestions to improve password security.
 
 #### Features
 
@@ -40,7 +41,7 @@ A Python program that checks the strength of a password based on common security
 * Detects numbers
 * Detects special characters
 * Provides password strength rating
-* Gives suggestions for stronger passwords
+* Suggests improvements for weak passwords
 
 #### Run
 
@@ -50,9 +51,39 @@ python password_strength_checker.py
 
 ---
 
+### 3. Simple Packet Sniffer
+
+#### Description
+
+A basic packet sniffer built using the Scapy library. The program captures network packets and displays a summary of each packet in real time.
+
+#### Features
+
+* Captures live network packets
+* Displays packet summaries
+* Lightweight and beginner-friendly
+* Stops with **Ctrl + C**
+
+#### Run
+
+```bash
+python packet_sniffer.py
+```
+
+---
+
 ## Requirements
 
 * Python 3.x
+* Scapy library
+
+Install Scapy using:
+
+```bash
+pip install scapy
+```
+
+---
 
 ## Project Structure
 
@@ -60,8 +91,10 @@ python password_strength_checker.py
 Python-Internship/
 ├── caesar_cipher.py
 ├── password_strength_checker.py
+├── packet_sniffer.py
 └── README.md
 ```
 
 ## Author
+
 Harshit
