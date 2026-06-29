@@ -65,7 +65,7 @@ A beginner-friendly packet sniffer built using the Scapy library. It captures ne
 #### Run
 
 ```bash
-python packet_sniffer.py
+python My_packet_sniffer.py
 ```
 
 ---
