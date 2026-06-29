@@ -1,8 +1,6 @@
-Here's a single **README.md** for all three of your internship tasks.
-
 # Python Internship Projects
 
-This repository contains Python projects completed as part of my internship to demonstrate basic programming and cybersecurity concepts.
+This repository contains Python projects completed as part of my internship. These projects demonstrate basic Python programming and introductory cybersecurity concepts.
 
 ## Projects
 
@@ -10,7 +8,7 @@ This repository contains Python projects completed as part of my internship to d
 
 #### Description
 
-A Python program that encrypts and decrypts messages using the Caesar Cipher algorithm. The user enters a message and a shift value through a command-line interface.
+A Python program that encrypts and decrypts messages using the Caesar Cipher algorithm. Users can enter a message and a shift value through a command-line interface.
 
 #### Features
 
@@ -31,7 +29,7 @@ python caesar_cipher.py
 
 #### Description
 
-A Python program that evaluates the strength of a password based on common security rules and provides suggestions to improve password security.
+A Python program that checks the strength of a password based on common security rules and provides suggestions to improve password security.
 
 #### Features
 
@@ -55,13 +53,13 @@ python password_strength_checker.py
 
 #### Description
 
-A basic packet sniffer built using the Scapy library. The program captures network packets and displays a summary of each packet in real time.
+A beginner-friendly packet sniffer built using the Scapy library. It captures network packets and displays a summary of each packet in real time.
 
 #### Features
 
 * Captures live network packets
 * Displays packet summaries
-* Lightweight and beginner-friendly
+* Beginner-friendly implementation
 * Stops with **Ctrl + C**
 
 #### Run
@@ -72,15 +70,38 @@ python packet_sniffer.py
 
 ---
 
+### 4. Simple Image Encryption Tool
+
+#### Description
+
+A beginner-friendly Python program that performs a simple image transformation by rotating an image and saving the processed result. This project demonstrates basic image handling using the Pillow library.
+
+#### Features
+
+* Opens an image file
+* Rotates the image by 180 degrees
+* Saves the processed image
+* Simple command-line interface
+* Basic error handling
+
+#### Run
+
+```bash
+python image_encryption_tool.py
+```
+
+---
+
 ## Requirements
 
 * Python 3.x
-* Scapy library
+* Scapy
+* Pillow
 
-Install Scapy using:
+Install the required libraries:
 
 ```bash
-pip install scapy
+pip install scapy pillow
 ```
 
 ---
@@ -92,6 +113,7 @@ Python-Internship/
 ├── caesar_cipher.py
 ├── password_strength_checker.py
 ├── packet_sniffer.py
+├── image_encryption_tool.py
 └── README.md
 ```
 
