@@ -14,10 +14,9 @@ def process_image(input_path, output_path):
     except Exception as e:
         print("Error:", e)
 
-
 print("=== Simple Image Encryption Tool ===")
 
-input_image = input("Enter input image path: ")
-output_image = input("Enter output image path: ")
+input_image = input("Enter input image path: ").strip('"')
+output_image = input("Enter output image path: ").strip('"')
 
 process_image(input_image, output_image)
